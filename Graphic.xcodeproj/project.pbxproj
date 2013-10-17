@@ -16,6 +16,10 @@
 		DA0C600F180C5FF900990B98 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0C600E180C5FF900990B98 /* Default.png */; };
 		DA0C6011180C5FF900990B98 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0C6010180C5FF900990B98 /* Default@2x.png */; };
 		DA0C6013180C5FF900990B98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0C6012180C5FF900990B98 /* Default-568h@2x.png */; };
+		DA0C601B180C61F100990B98 /* GraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C601A180C61F100990B98 /* GraphicView.m */; };
+		DA0C601E180F7B3600990B98 /* GraphicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C601D180F7B3500990B98 /* GraphicClass.m */; };
+		DA0C6021180F858400990B98 /* GraphicClock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C6020180F858400990B98 /* GraphicClock.m */; };
+		DA0C6024180F8C4F00990B98 /* GraphicRect.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C6023180F8C4E00990B98 /* GraphicRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		DA0C600E180C5FF900990B98 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DA0C6010180C5FF900990B98 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DA0C6012180C5FF900990B98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA0C6019180C61F100990B98 /* GraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicView.h; sourceTree = "<group>"; };
+		DA0C601A180C61F100990B98 /* GraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicView.m; sourceTree = "<group>"; };
+		DA0C601C180F7B3500990B98 /* GraphicClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicClass.h; sourceTree = "<group>"; };
+		DA0C601D180F7B3500990B98 /* GraphicClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicClass.m; sourceTree = "<group>"; };
+		DA0C601F180F858400990B98 /* GraphicClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicClock.h; sourceTree = "<group>"; };
+		DA0C6020180F858400990B98 /* GraphicClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicClock.m; sourceTree = "<group>"; };
+		DA0C6022180F8C4E00990B98 /* GraphicRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicRect.h; sourceTree = "<group>"; };
+		DA0C6023180F8C4E00990B98 /* GraphicRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,14 @@
 			children = (
 				DA0C600B180C5FF900990B98 /* GraphicAppDelegate.h */,
 				DA0C600C180C5FF900990B98 /* GraphicAppDelegate.m */,
+				DA0C6019180C61F100990B98 /* GraphicView.h */,
+				DA0C601A180C61F100990B98 /* GraphicView.m */,
+				DA0C601C180F7B3500990B98 /* GraphicClass.h */,
+				DA0C601D180F7B3500990B98 /* GraphicClass.m */,
+				DA0C601F180F858400990B98 /* GraphicClock.h */,
+				DA0C6020180F858400990B98 /* GraphicClock.m */,
+				DA0C6022180F8C4E00990B98 /* GraphicRect.h */,
+				DA0C6023180F8C4E00990B98 /* GraphicRect.m */,
 				DA0C6003180C5FF900990B98 /* Supporting Files */,
 			);
 			path = Graphic;
@@ -167,6 +187,10 @@
 			files = (
 				DA0C6009180C5FF900990B98 /* main.m in Sources */,
 				DA0C600D180C5FF900990B98 /* GraphicAppDelegate.m in Sources */,
+				DA0C601B180C61F100990B98 /* GraphicView.m in Sources */,
+				DA0C601E180F7B3600990B98 /* GraphicClass.m in Sources */,
+				DA0C6021180F858400990B98 /* GraphicClock.m in Sources */,
+				DA0C6024180F8C4F00990B98 /* GraphicRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

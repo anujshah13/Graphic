@@ -7,8 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+@class GraphicView;
+@class GraphicClass;
+@class GraphicClock;
+@class GraphicRect;
 
-@interface GraphicAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GraphicAppDelegate : UIResponder <UIApplicationDelegate>{
+    GraphicView *view;
+    GraphicClass *viewRect;
+    GraphicClock *viewClock;
+    GraphicRect *viewTriang;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
